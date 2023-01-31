@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+*{
+	margin:0 auto;
+	align-items: center;
+	font-size: 15px;
+	color:black;
+}
+.logo{
+	background-color:black;
+	cursor:pointer;
+	height:100px;
+	padding-top:5px;
+	padding-left:5px;
+	
+}
+.detail{
+	border:1px solid black;
+	height:800px;
+	background-color:#F2FEFF;
+	font-size:30px;
+	text-align:center;
+}
+h1{
+	width:50%;
+	margin-bottom:15px;
+	margin-top: 10px;
+}
+.boardTable{
+	width:100%;
+	padding-top:30px;
+	padding-right:10px;
+	padding-left:10px;
+	text-align:center;
+	height:100px;
+	border-spacing:15px;
+	color:white;
+}
+.boardTable > tr, td{
+	padding: 10px;
+}
+.boardTable tbody tr{
+	cursor:pointer;
+	order-collapse: collapse;
+}
+
+.boardTable > thead{
+	background-color:#F4E8F6;
+	border-bottom: 3px solid bage;
+	border-radius: 20px;
+}
+.searchBox{
+	text-align:center;
+	padding-bottom:5px;
+	padding-top:15px;
+}
+
+.searchBox >button{
+	border-radius: 10px;
+	border: 5px solid #F4E8F6;
+	background-color:white;
+	cursor:pointer;
+	
+}
+.center{
+	text-align:center;
+}
+.btn{
+	float:right;
+	padding-right:5px;
+	border-radius: 10px;
+	border: 5px solid #F4E8F6;
+	background-color:white;
+	cursor:pointer;
+	
+}
+.leftBtn{
+	float:left;
+	padding-left:10px;
+}
+.leftBtn > button{
+	border-radius: 10px;
+	border: 5px solid #F4E8F6;
+	background-color:white;
+	cursor:pointer;
+}
+.paging{
+	text-align:center;
+	color:#333;
+	padding-top:20px;
+	font-size:20px;
+}
+.rightBtn > button{
+	float: right;
+	margin-right: 15px;
+	cursor:pointer;
+	border-radius: 10px;
+	border: 5px solid #F4E8F6;
+	background-color:white;
+}
+.rightBtn{
+	text-align:right;
+}
+.rightBtn > .alter{
+	cursor:pointer;
+	border-radius: 10px;
+	border: 5px solid #F4E8F6;
+	background-color:white;
+	
+}
